@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 
 
-class Stuff extends Component {
+class Friends extends Component {
     state = {
         response: ''
     };
@@ -78,4 +78,4 @@ class Stuff extends Component {
     }
 }
 
-export default Stuff;
+export default Friends;

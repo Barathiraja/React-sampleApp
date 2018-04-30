@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Contact extends Component {
+class Messages extends Component {
     render() {
         return (
             <div style={{padding: "30px"}}>
@@ -59,4 +59,4 @@ class Contact extends Component {
     }
 }
 
-export default Contact;
+export default Messages;

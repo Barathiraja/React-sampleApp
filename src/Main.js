@@ -5,8 +5,8 @@ import {
     HashRouter
 } from "react-router-dom";
 import Home from "./Home";
-import Stuff from "./Stuff";
-import Contact from "./Contact";
+import Friends from "./Friends";
+import Messages from "./Messages";
 import ReactDOM from 'react-dom';
 
 // import { Button } from 'elemental'
@@ -64,8 +64,8 @@ class Main extends Component {
                 </nav>
                     <div className="panel bg-transparent">
                         <Route exact path="/" component={Home} class="active" />
-                        <Route path="/create" component={Stuff} class="active" />
-                       <Route path="/messages" component={Contact} class="active" />
+                        <Route path="/create" component={Friends} class="active" />
+                       <Route path="/messages" component={Messages} class="active" />
                         {/*<p>{this.state.response}</p>*/}
 
 
